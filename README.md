@@ -50,3 +50,11 @@ npm start
 #### Dedicated: [SalonEverywhere-Teachnical-Test](https://docs.google.com/document/d/1LcnZ0zrGXertDPFWq8Y3VnUk2woDgDqQnucpv6_fydA/edit).
 
 #### Develoer: [Key Joshua](https://www.instagram.com/key_joshua/).
+
+
+#### Completed Tasks ScreenShots
+![|Saloneverywhere Home Page](SalonHomePage.PNG)
+
+![|Saloneverywhere Test User Page](SalonTestPage.PNG)
+
+![|Saloneverywhere Response Page](SalonResponsePage.PNG)
