@@ -1,0 +1,42 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #fff; 
+    font-size: 15px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    margin: 20px;
+    z-index: 10;
+    img {
+        height: 80px;
+        width: 150px;
+    }
+
+}
+
+.Toastify__toast-container .Toastify__toast--info {
+    width: 360px;
+    font-size:12px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 50px;
+    color: rgb(189, 187, 187);
+    background: rgb(255, 255, 255);
+ }
+ 
+ .Toastify__toast-container .Toastify__toast--error {
+    width: 360px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(175, 3, 3);
+    background: rgb(255, 255, 255);
+ }
+
+@import './assets/style/HomePage.scss';
+@import './assets/style/QuestionPage.scss';
+@import './assets/style/ResponsePage.scss';

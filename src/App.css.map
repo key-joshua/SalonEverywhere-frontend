@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "App.scss",
+        "assets/style/HomePage.scss",
+        "assets/style/QuestionPage.scss",
+        "assets/style/ResponsePage.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}
