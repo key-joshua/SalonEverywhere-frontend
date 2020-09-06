@@ -1,0 +1,78 @@
+.home-page {
+    
+    .container
+    {
+        background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(175, 3, 3)), url(../images/background.gif);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+
+        
+        .content-container
+        {
+            top: 40%;
+            left: 50%;
+            width: 40%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+
+            span {
+                font-weight: 600;
+                color: rgb(218, 218, 218);
+            }
+        
+            h3 {
+                margin-top: 10%;
+        
+            }
+        
+            .submit-form {
+                display: flex;
+                width: 100%;
+            }
+        
+            .input-field {
+                border: 0;
+                width: 70%;
+                outline: none;
+                color: rgb(170, 170, 170);
+                padding: 10px 05px 10px 20px;
+                border-radius: 10px 00px 00px 10px;
+            }
+
+            .email-input::placeholder {
+                color: red;
+            }
+        
+            .button-input {
+                border: 0;
+                width: 30%;
+                outline: none;
+                color: rgb(255, 255, 255);
+                padding: 10px 05px 10px 05px;
+                background: rgb(163, 4, 4);
+                border-radius: 00px 10px 10px 00px;
+            }
+
+            .form-status {
+                font-weight: 900;
+                margin-top: 30px;
+                color: rgb(199, 199, 199);
+            }
+        }
+
+    }
+    
+}
+
+
+@media(max-width: 600px) {
+   .home-page {
+        .container {
+            .content-container {
+                width: 80%;
+                
+            }
+        }
+   }
+}

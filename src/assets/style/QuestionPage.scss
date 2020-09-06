@@ -1,0 +1,126 @@
+.question-page {
+    
+    .right-container{
+        background-color: rgb(175, 3, 3);
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        right: 0;
+
+        .form-container {
+            margin-top: 20%;
+            font-size: 15px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+
+            h2 {
+                text-decoration: underline;
+            }
+        
+            .form-option {
+                margin: 10px;
+            }
+        
+            select {
+                color: rgb(110, 110, 110);
+                font-size: 10px;
+                outline: none;
+                padding: 05px 05px 05px 05px;
+                width: 50%;
+                border: none;
+                border-radius: 10px;
+                border-bottom: 1px solid white;
+            }
+        
+            .button-input {
+                color: rgb(110, 110, 110);
+                font-size: 10px;
+                outline: none;
+                padding: 08px 05px 08px 05px;
+                width: 50%;
+                border: none;
+                border-radius: 05px;
+                background: rgb(202, 202, 202);
+            }
+        
+            .form-status {
+                font-weight: 900;
+                color: rgb(199, 199, 199);
+            }.symptoms-input{
+                color: rgb(248, 25, 25);
+            }.cough-input{
+                color: rgb(248, 25, 25);
+            }.shortness-input{
+                color: rgb(248, 25, 25);
+            }.throat-input{
+                color: rgb(248, 25, 25);
+            }.congestion-input{
+                color: rgb(248, 25, 25);
+            }.hoarse-input{
+                color: rgb(248, 25, 25);
+            }.swallowing-input{
+                color: rgb(248, 25, 25);
+            }.disorder-input{
+                color: rgb(248, 25, 25);
+            }.vomiting-input{
+                color: rgb(248, 25, 25);
+            }.malaise-input{
+                color: rgb(248, 25, 25);
+            }.chills-input{
+                color: rgb(248, 25, 25);
+            }.headache-input{
+                color: rgb(248, 25, 25);
+            }.travelled-input{
+                color: rgb(248, 25, 25);
+            }.fever-input{
+                color: rgb(248, 25, 25);
+            }.illness-input{
+                color: rgb(248, 25, 25);
+            }
+
+        }
+    
+        
+    }
+
+    .left-container {
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(175, 3, 3)), url(../images/background.gif);
+        background-size: cover;
+        position: absolute;
+        height: 100vh;
+        width: 50%;
+    }
+
+    
+
+
+}
+
+
+
+@media(max-width: 800px) {
+    .question-page {
+    
+        .right-container{
+            width: 100%;
+        }
+
+        .left-container {
+            display: none;
+        }
+    }
+}
+
+
+@media(max-width: 500px) {
+    .question-page {
+    
+        .right-container{
+            .form-container {
+                select {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
